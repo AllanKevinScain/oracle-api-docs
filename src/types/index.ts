@@ -33,3 +33,7 @@ export interface CustomButtonInterface extends SomeChildrenInterface {
 export interface CustomAccordionItemInterface extends SomeChildrenInterface {
   content: string;
 }
+
+export interface HeaderMenuItemInterface extends SomeChildrenInterface {
+  to: string;
+}
